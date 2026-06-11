@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+header{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+nav{
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+}
+
+section{
+    padding:30px;
+}
+
+.project{
+    border:1px solid #ddd;
+    padding:15px;
+    margin-bottom:10px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+input,textarea{
+    padding:10px;
+}
+
+button{
+    padding:10px;
+    background:#333;
+    color:white;
+    border:none;
+}
